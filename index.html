@@ -318,7 +318,6 @@
     <script>
        
 
-        // Smooth Scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -330,7 +329,6 @@
                         behavior: 'smooth'
                     });
                     
-                    // Close mobile menu if open
                     navMenu.classList.remove('active');
                 }
             });

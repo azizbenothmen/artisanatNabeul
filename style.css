@@ -27,7 +27,6 @@ a {
     color: inherit;
 }
 
-/* Header */
 header {
     background-color: white;
     box-shadow: var(--shadow);
@@ -96,7 +95,6 @@ nav ul li a:hover {
     font-size: 0.8rem;
 }
 
-/* Hero Section */
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/600');
     background-size: cover;
@@ -142,7 +140,6 @@ nav ul li a:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Categories Section */
 .categories {
     padding: 5rem 5%;
     max-width: 1200px;
@@ -199,7 +196,6 @@ nav ul li a:hover {
     margin-bottom: 0.5rem;
 }
 
-/* Featured Products */
 .featured-products {
     background-color: white;
     padding: 5rem 5%;
@@ -285,7 +281,6 @@ nav ul li a:hover {
     color: var(--accent-color);
 }
 
-/* Testimonials */
 .testimonials {
     padding: 5rem 5%;
     background-color: var(--light-color);
@@ -337,7 +332,6 @@ nav ul li a:hover {
     color: #666;
 }
 
-/* About Section */
 .about {
     padding: 5rem 5%;
     background-color: white;
@@ -367,7 +361,6 @@ nav ul li a:hover {
     margin-bottom: 1.5rem;
 }
 
-/* Newsletter */
 .newsletter {
     padding: 3rem 5%;
     background-color: var(--secondary-color);
@@ -420,7 +413,6 @@ nav ul li a:hover {
     color: var(--dark-color);
 }
 
-/* Footer */
 footer {
     background-color: var(--dark-color);
     color: white;
@@ -497,7 +489,6 @@ footer {
     color: #bbb;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .header-container {
         flex-direction: column;
@@ -531,7 +522,6 @@ footer {
     }
 }
 
-/* Mobile menu */
 .menu-toggle {
     display: none;
     flex-direction: column;
